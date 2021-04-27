@@ -26,8 +26,8 @@
     "require": {
         "php": "^7.3",
         "ext-pdo": "*",
-        "ezsystems/ezplatform-kernel": "^1.0@dev",
-        "ezsystems/doctrine-dbal-schema": "^1.0@dev",
+        "ezsystems/ezplatform-kernel": "^2.0@dev",
+        "ezsystems/doctrine-dbal-schema": "^2.0@dev",
         "mtdowling/jmespath.php": "2.*",
         "nikic/php-parser": "^4.2.2",
         "symfony/process": "*",
@@ -48,7 +48,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "2.0.x-dev"
         }
     },
     "repositories": [
