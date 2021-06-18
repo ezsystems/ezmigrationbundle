@@ -807,6 +807,7 @@ services:
 
     ez_migration_bundle.helper.config.resolver:
         class: '%ez_migration_bundle.helper.config.resolver%'
+        public: true
         arguments:
             - '@ezpublish.config.resolver'
             - '@service_container'
